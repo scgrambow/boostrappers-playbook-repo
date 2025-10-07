@@ -28,8 +28,9 @@ _These are the expert "hats" your AI can wear. Each persona provides a different
 
 | Persona Name | Description | Location |
 |---------------|--------------|-----------|
-| **Thinking Partner** | Reflective collaborator focused on pattern detection, insight reframing, and constructive amplification. | [/personas/Thinking_Partner.md](https://github.com/scgrambow/bootstrappers-playbook-repo/blob/main/personas/Thinking_Partner.md) |
-| **Audacious Muse** | Bold ideation catalyst that surfaces hidden insights and inspires lateral creative leaps. | [/personas/Audacious_Muse.md](https://github.com/scgrambow/bootstrappers-playbook-repo/blob/main/personas/Audacious_Muse.md) |
+| **Thinking Partner** | Reflective collaborator focused on pattern detection, insight reframing, and constructive amplification. | [/templates/personas/Thinking_Partner.md](personas/Thinking_Partner.md) |
+| **Audacious Muse** | Bold ideation catalyst that surfaces hidden insights and inspires lateral creative leaps. | [/templates/personas/Audacious_Muse.md](personas/Audacious_Muse.md) |
+
 
 
 - **Core Identity:** _[e.g., The Red Team Analyst]_
