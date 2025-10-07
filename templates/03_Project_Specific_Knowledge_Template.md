@@ -1,4 +1,4 @@
-# Project-Specific Knowledge Template v1.0
+`# Project-Specific Knowledge Template v1.0
 
 _This document is your "Briefing." It's a transient file that contains all the immediate, task-specific data, files, and context your AI assistant needs to complete the current mission. Unlike your Universal Knowledge, this file changes with every new project._
 
