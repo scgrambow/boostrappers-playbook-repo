@@ -53,4 +53,4 @@ Ready to begin your journey? Start here — this is your “Crawl” stage in ac
 
 This playbook and its tools are part of an evolving collaboration.  
 If this is a journey you’re on — or one you want to begin — reach out and share your build.  
-**Connect with me on [LinkedIn](https://www.linkedin.com/in/steven-grambow-78262b88/)** or explore more at [Luminate Insights](https://luminateinsights.com).
+**Connect with me on <a href="https://www.linkedin.com/in/steven-grambow-78262b88/" target="_blank" rel="noopener">LinkedIn</a>** or explore more at <a href="https://luminateinsights.com" target="_blank" rel="noopener">Luminate Insights</a>.
