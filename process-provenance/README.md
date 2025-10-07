@@ -1,60 +1,55 @@
 # Process Provenance
 
-This folder documents the **working record** behind your AI-assisted projects — the "science flight recorder" of *The Bootstrapper’s Playbook.*
+This folder serves as the **science flight recorder** for the *Bootstrapper’s Playbook* project.  
+It captures representative records of the creative, analytic, and design processes behind the presentation and its supporting artifacts.
 
-Each file captures how a piece of work was created: the prompts, iterations, insights, and decisions that shaped it.  
-Together, these records show not only **what** was built, but **how** it came to be.
+Each file provides a structured snapshot — a concise record of how ideas became systems.  
+This collection is **illustrative, not exhaustive**: the goal is to show the architecture of thinking, not to log every keystroke.
 
 ---
 
 ### 🧭 Purpose
 
-Process Provenance turns invisible thinking into visible knowledge.
+**Process Provenance** makes the invisible visible.  
+It transforms meetings, design sessions, and transcriptions into *evidence of thinking* — valuable artifacts for learning, replication, and trust-building.
 
-By logging your sessions, tools, and reflections, you create a living audit trail that supports:
+Every structured record contributes to three goals:
 
-- **Transparency** – others can see how ideas evolved.  
-- **Reproducibility** – methods and reasoning can be retraced.  
-- **Learning** – patterns in your own creative and analytical process become data for improvement.  
+- **Transparency:** Shows how decisions were made.  
+- **Reproducibility:** Allows others to understand and retrace the reasoning process.  
+- **Institutional Learning:** Turns unstructured collaboration (notes, transcripts, meeting summaries) into durable, analyzable knowledge.
 
----
-
-### 🧩 What to Record
-
-Each provenance entry should be concise but structured.  
-Think of it as a *snapshot* of a working session rather than a full transcript.
-
-| Component | Description | Example File |
-|------------|--------------|---------------|
-| **Session Synthesis** | Summary of an AI session: goal, process, and outcome. | [`2025-10-01_AI_Summit_Session_Synthesis.md`](2025-10-01_AI_Summit_Session_Synthesis.md) |
-| **Tool Use Record** | Example of a specific tool in action (e.g., Session Synthesizer). | [`tools_used.md`](tools_used.md) |
-| **Reflection Note** | Quick reflection or insight gained from the work. | [`2025-10-07_Presentation_Reflection.md`](2025-10-07_Presentation_Reflection.md) |
-
-You can adapt these to fit your own workflow — what matters most is *capturing reasoning at the moment it happens.*
+When captured intentionally, these artifacts become part of a living system of organizational metacognition — a record of how knowledge evolves.
 
 ---
 
-### ⚙️ How to Create a Provenance Entry
+### 🧩 Example Files
 
-1. **Start with intent** – one sentence: “What was I trying to accomplish?”  
-2. **Capture the structure** – what tools, prompts, or personas were active?  
-3. **Summarize the outcome** – what was produced or learned?  
-4. **Tag and store** – save as a dated `.md` file using this format:  
-
-    `YYYY-MM-DD_Brief_Descriptive_Title.md`
-
-5. **Link it back** – connect the provenance file to the relevant template, persona, or output.
+| File | Description | Category |
+|-------|--------------|-----------|
+| [`2025-10-05_Presentation_Narrative_Structure.md`](2025-10-05-Presentation%20Narrative%20Structure.md) | Defines the logical and narrative spine of the Summit presentation. | Thinking Provenance |
+| [`2025-10-06_Proposed_Visual_Arc.md`](2025-10-06-proposed-visual-arc.md) | Outlines the “Blueprint → Vibrant Life” design evolution and its emotional logic. | Design Provenance |
+| [`2025-10-06_AI_Summit_Presentation_Design_Session.md`](2025-10-06-AI-Summit-Presentation-Design-Session.md) | Links the visual and narrative threads through implementation choices. | Integration Provenance |
+| [`2025-10-07_AI_Summit_Presentation_Conclusion_Design.md`](2025-10-07-AI-Summit-Presentation-Conclusion-Design.md) | Captures the reflective synthesis and introduction of the “Moral Dividend.” | Synthesis Provenance |
 
 ---
 
-### 🧠 Example Use Case
+### 🧱 File Structure
 
-> During development of the *Bootstrapper’s Playbook* presentation, each working session was logged here — from narrative design to prototype testing.  
-> These notes later became the backbone for the **Executive Brief** and the “Anatomy of an Answer” demo.
+Each provenance entry should include:
+
+1. **Conceptual Summary** – What was the goal or challenge?  
+2. **Principle-Based Linking** – Which design or reasoning principles guided the work?  
+3. **Knowledge Capture** – Key insights, reflections, or emergent patterns.  
+4. **Outcome or Action** – What decision or artifact resulted?  
+
+Use this naming convention:  
+`'YYYY-MM-DD_Descriptive_Title.md'`
+
+Example:  
+`'2025-10-06_Proposed_Visual_Arc.md'`
 
 ---
 
 ### 🪶 Guiding Principle
-> *“Science advances when we remember how we built the last experiment.”*
-
-Process Provenance ensures that every AI-assisted idea, experiment, or workflow carries its own origin story — a transparent lineage of reasoning that others can trace, learn from, and build upon.
+> *“Process Provenance doesn’t just explain what we built — it shows how we learned.”*
