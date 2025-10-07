@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Bootstrapper's Playbook</title>
+  <meta name="description" content="A human-centric operating system for AI-powered work: crawl, walk, run." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --duke-blue:#012169; --gold:#FFB81C; }
+    html,body{scroll-behavior:smooth}
+    body { font-family: 'Inter', sans-serif; background-color:#f8f9fa; }
+    .duke-blue-text{ color:var(--duke-blue) }
+    .duke-blue-bg{ background:var(--duke-blue) }
+    /* ---------- Card Flip (from your module) ---------- */
+    .card-container{ perspective:1000px }
+    .card{ position:relative; width:100%; height:100%; transition:transform .6s; transform-style:preserve-3d }
+    .card.is-flipped{ transform:rotateY(180deg) }
+    .card-face{ position:absolute; width:100%; height:100%; -webkit-backface-visibility:hidden; backface-visibility:hidden; display:flex; flex-direction:column; align-items:center; justify-content:center }
+    .card-back{ transform:rotateY(180deg) }
+    /* ---------- Typing / fade bits ---------- */
+    .thinking-dots span{ animation:blink 1.4s infinite both }
+    .thinking-dots span:nth-child(2){ animation-delay:.2s }
+    .thinking-dots span:nth-child(3){ animation-delay:.4s }
+    @keyframes blink{0%,80%,100%{opacity:0}40%{opacity:1}}
+    .fade-in{ animation:fadeIn .5s ease-in-out }
+    @keyframes fadeIn{ from{opacity:0; transform:translateY(10px)} to{opacity:1; transform:translateY(0)} }
+    .prompt-block, .answer-block{ transition:opacity .5s, transform .5s }
+    .code-block{ background:#1e293b; color:#e2e8f0; white-space:pre-wrap; word-wrap:break-word }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <!-- Header / Nav -->
+  <header class="bg-white/80 backdrop-blur border-b sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="font-semibold duke-blue-text">Bootstrapper's Playbook</a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#journey" class="hover:text-gray-900 text-gray-600">The Journey</a>
+        <a href="#anatomy" class="hover:text-gray-900 text-gray-600">Anatomy of an Answer</a>
+        <a href="#resources" class="hover:text-gray-900 text-gray-600">Resources</a>
+        <a href="https://luminateinsights.com" target="_blank" rel="noopener"
+           class="hover:text-gray-900 text-gray-600">Luminate Insights</a>
+        <a href="https://www.linkedin.com/in/steven-grambow-78262b88/" target="_blank" rel="noopener"
+           class="hover:text-gray-900 text-gray-600">LinkedIn</a>
+        <a href="https://github.com/scgrambow/boostrappers-playbook-repo" target="_blank" rel="noopener"
+           class="inline-flex items-center font-semibold text-sm duke-blue-text">View Repo →</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="duke-blue-bg text-white">
+    <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">
+          The Future of Innovation Isn't Artificial. It's Human.
+        </h1>
+        <p class="mt-4 text-lg text-white/90">
+          Your journey from foundational chaos to a new, human-centric operating system for AI-powered work starts here.
+          Get the playbook, the tools, and the templates you need to begin.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#anatomy" class="bg-white text-gray-900 px-5 py-3 rounded-lg font-semibold"
+             aria-label="Try the interactive Anatomy of an Answer module">Try the interactive module</a>
+          <a href="REPO_URL" class="border border-white/40 px-5 py-3 rounded-lg font-semibold"
+             aria-label="Open the GitHub repository">Access the GitHub repository</a>
+        </div>
+      </div>
+      <div class="bg-white/10 rounded-2xl p-6 border border-white/20">
+        <p class="font-semibold mb-2">What you’ll get</p>
+        <ul class="space-y-2 text-white/90 list-disc list-inside">
+          <li>Portable AI Brain templates</li>
+          <li>Slide deck + notes</li>
+          <li>Interactive “Anatomy of an Answer” demo</li>
+          <li>Clear first steps for Monday morning</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Journey -->
+  <section id="journey" class="max-w-7xl mx-auto px-4 py-14">
+    <div class="max-w-3xl">
+      <h2 class="text-3xl md:text-4xl font-bold duke-blue-text">The Bootstrapper’s Playbook: A Three-Stage Journey</h2>
+      <p class="mt-3 text-gray-600">
+        This playbook moves from individual skill-building to systematic team practice and, finally, to scaled organizational capability.
+      </p>
+    </div>
+
+    <div class="mt-10 grid md:grid-cols-3 gap-6">
+      <!-- Crawl -->
+      <div class="bg-white rounded-2xl shadow p-6 border">
+        <h3 class="text-xl font-bold duke-blue-text">CRAWL: Build Your Foundational Skills</h3>
+        <p class="mt-2 text-gray-700">
+          Build a <span class="font-semibold">Portable AI Brain</span>—a platform-agnostic way to create a personalized assistant using simple, structured text files. This is the skill that unlocks personal “superagency.”
+        </p>
+      </div>
+      <!-- Walk -->
+      <div class="bg-white rounded-2xl shadow p-6 border">
+        <h3 class="text-xl font-bold duke-blue-text">WALK: Adopt a Systematic Practice</h3>
+        <p class="mt-2 text-gray-700">
+          Turn individual excellence into team reliability with shared, documented workflows—transforming the AI “black box” into a transparent, verifiable shared asset.
+        </p>
+      </div>
+      <!-- Run -->
+      <div class="bg-white rounded-2xl shadow p-6 border">
+        <h3 class="text-xl font-bold duke-blue-text">RUN: Achieve Scaled Automation</h3>
+        <p class="mt-2 text-gray-700">
+          Convert validated practices into automated, agentic systems and reinvest the <span class="font-semibold">Innovation Dividend</span> into high-value human work.
+        </p>
+      </div>
+    </div>
+    <!-- Design alignment: hero/journey/spec per docs. -->
+    <!-- (Matches Website Design Document + Content Draft) -->
+  </section>
+
+  <!-- Interactive: Anatomy of an Answer -->
+  <section id="anatomy" class="bg-[#f0f4f8] py-14">
+    <div class="max-w-7xl mx-auto px-4">
+      <!-- ==== START: your provided interactive module (lightly wrapped) ==== -->
+      <div id="interactive-module" class="w-full mx-auto bg-white rounded-2xl shadow-lg p-8 md:p-12">
+        <div class="text-center mb-10">
+          <h2 class="text-3xl md:text-4xl font-bold duke-blue-text">The Anatomy of an Answer</h2>
+          <p class="mt-2 text-lg text-gray-600">Deconstructing the "Portable AI Brain" to see how structured context creates a high-quality answer.</p>
+        </div>
+
+        <!-- Part 1: The Components -->
+        <div id="components-section">
+          <h3 class="text-2xl font-semibold text-center mb-6 duke-blue-text">Part 1: The Components</h3>
+          <div class="grid md:grid-cols-3 gap-6 text-center">
+            <!-- Card 1 -->
+            <div class="card-container h-64">
+              <div class="card cursor-pointer" onclick="this.classList.toggle('is-flipped')" aria-label="Flip card: The Mission">
+                <div class="card-face card-front bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-4">
+                  <span class="text-5xl mb-2" aria-hidden="true">🚀</span>
+                  <h4 class="text-xl font-bold duke-blue-text">The Mission</h4>
+                  <p class="text-sm text-gray-500 mt-2">(Lean Master Prompt)</p>
+                  <p class="mt-4 font-semibold text-gray-600">Click to flip</p>
+                </div>
+                <div class="card-face card-back bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-6">
+                  <p class="text-gray-700">Sets the <b class="duke-blue-text">GOAL</b>, assigns the <b class="duke-blue-text">ROLE</b>, and defines the <b class="duke-blue-text">CONTEXT</b> for a specific task.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card-container h-64">
+              <div class="card cursor-pointer" onclick="this.classList.toggle('is-flipped')" aria-label="Flip card: The Operating System">
+                <div class="card-face card-front bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-4">
+                  <span class="text-5xl mb-2" aria-hidden="true">⚙️</span>
+                  <h4 class="text-xl font-bold duke-blue-text">The Operating System</h4>
+                  <p class="text-sm text-gray-500 mt-2">(Universal Libraries)</p>
+                  <p class="mt-4 font-semibold text-gray-600">Click to flip</p>
+                </div>
+                <div class="card-face card-back bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-6">
+                  <p class="text-gray-700">Your stable library of <b class="duke-blue-text">PRINCIPLES</b>, <b class="duke-blue-text">PERSONAS</b>, and <b class="duke-blue-text">TOOLS</b> that define <i>how</i> you work.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card-container h-64">
+              <div class="card cursor-pointer" onclick="this.classList.toggle('is-flipped')" aria-label="Flip card: The Briefing">
+                <div class="card-face card-front bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-4">
+                  <span class="text-5xl mb-2" aria-hidden="true">📁</span>
+                  <h4 class="text-xl font-bold duke-blue-text">The Briefing</h4>
+                  <p class="text-sm text-gray-500 mt-2">(Project-Specific Knowledge)</p>
+                  <p class="mt-4 font-semibold text-gray-600">Click to flip</p>
+                </div>
+                <div class="card-face card-back bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg p-6">
+                  <p class="text-gray-700">The transient <b class="duke-blue-text">DATA</b>, <b class="duke-blue-text">FILES</b>, and <b class="duke-blue-text">CONTEXT</b> for the current task.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Part 2: Assembly -->
+        <div id="assembly-section" class="text-center mt-10">
+          <h3 class="text-2xl font-semibold text-center mb-6 duke-blue-text">Part 2: The Assembly</h3>
+          <button id="assemble-btn"
+                  class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition-transform hover:scale-105 shadow-md">
+            Assemble the Prompt &amp; See it in Action
+          </button>
+        </div>
+
+        <!-- Part 3: The Answer -->
+        <div id="answer-section" class="mt-12 hidden">
+          <h3 class="text-2xl font-semibold text-center mb-8 duke-blue-text">Part 3: The Answer</h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div id="prompt-block" class="prompt-block opacity-0 translate-y-1">
+              <h4 class="text-lg font-semibold mb-2 duke-blue-text">Assembled Prompt:</h4>
+              <div id="prompt-content" class="code-block p-4 rounded-lg h-full text-sm" role="region" aria-live="polite"></div>
+            </div>
+            <div id="answer-block" class="answer-block opacity-0 translate-y-1">
+              <h4 class="text-lg font-semibold mb-2 duke-blue-text">Structured Answer:</h4>
+              <div id="answer-content" class="border border-gray-200 p-4 rounded-lg h-full text-sm bg-gray-50" role="region" aria-live="polite">
+                <div id="thinking-animation" class="flex items-center text-gray-500">
+                  <span class="font-semibold">Thinking</span>
+                  <div class="thinking-dots ml-2"><span>.</span><span>.</span><span>.</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /interactive-module -->
+      <!-- ==== END: your module ==== -->
+    </div>
+  </section>
+
+  <!-- Resources -->
+  <section id="resources" class="max-w-7xl mx-auto px-4 py-16">
+    <div class="bg-white rounded-2xl shadow p-8 md:p-12 border">
+      <div class="grid md:grid-cols-3 gap-8 items-center">
+        <div class="md:col-span-2">
+          <h3 class="text-2xl md:text-3xl font-bold duke-blue-text">Get the Resources</h3>
+          <p class="mt-3 text-gray-700">
+            This public GitHub repository contains everything you need to start your journey. It’s a living example of
+            <span class="font-semibold">Process Provenance</span> and includes the slide deck and the full library of templates
+            for building your own Portable AI Brain.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="REPO_URL" class="bg-gray-900 text-white px-5 py-3 rounded-lg font-semibold">Access the GitHub Repository</a>
+            <a href="SLIDES_URL" class="px-5 py-3 rounded-lg font-semibold border">Download Slides</a>
+            <a href="TEMPLATES_URL" class="px-5 py-3 rounded-lg font-semibold border">Get Templates</a>
+          </div>
+        </div>
+        <div class="">
+          <div class="border rounded-xl p-4 text-sm">
+            <p class="font-semibold mb-2">What’s inside</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-1">
+              <li>01_Lean_Master_Prompt_Template.md</li>
+              <li>02_Universal_Knowledge_Template.md</li>
+              <li>03_Universal_Persona_Library_Example.md</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="mt-8 text-xs text-gray-500">
+        Written by a human • Boosted by AI • v1.0
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10">
+    <div class="max-w-7xl mx-auto px-4 text-sm text-gray-500">
+      © 2025 The Bootstrapper’s Playbook. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Module Script (from your snippet, lightly organized) -->
+  <script>
+    const assembleBtn = document.getElementById('assemble-btn');
+    const componentsSection = document.getElementById('components-section');
+    const assemblySection = document.getElementById('assembly-section');
+    const answerSection = document.getElementById('answer-section');
+    const promptBlock = document.getElementById('prompt-block');
+    const answerBlock = document.getElementById('answer-block');
+    const promptContent = document.getElementById('prompt-content');
+    const answerContent = document.getElementById('answer-content');
+    const thinkingAnimation = document.getElementById('thinking-animation');
+
+    const masterPrompt = `**Role:** You are a strategic thinking partner and knowledge synthesizer. Your name is "Athena."
+
+**Goal:** To help a Health AI Innovation Summit attendee process key themes from the sessions and identify a relevant, actionable next step for their work.
+
+**Context:** Use Universal Knowledge (including the Socratic Refiner persona and Session Synthesis Tool) and Project-Specific Knowledge (a summary of the summit's key themes).
+
+**Action:**
+1. Adopt the Socratic Refiner persona.
+2. Ask one question to understand my role (clinician, leader, industry).
+3. Based on my answer, synthesize themes and propose the most impactful "first step" from the "Crawl, Walk, Run" model.
+4. Conclude by running the Session Synthesis Tool on our interaction.`;
+
+    const simulatedAnswer = `
+<div class="p-2 bg-gray-200 text-gray-700 rounded mb-4 font-mono text-xs">&lt;thinking&gt;
+Okay, the user wants an actionable next step from the summit. My role is Athena. I need to use the Socratic Refiner persona first to understand their context. Based on their role, I will synthesize the provided themes (Top-Down vs. Bottom-Up Innovation, Implementation Science, etc.) and propose a relevant action from the "Crawl, Walk, Run" model. Finally, I will run the Session Synthesis Tool.
+&lt;/thinking&gt;</div>
+<p class="mb-4">Hello. To provide the most relevant insight, could you please tell me your primary role? Are you a:</p>
+<div class="flex flex-wrap gap-2 mb-4">
+  <button class="bg-blue-100 text-blue-800 py-1 px-3 rounded-full text-sm" type="button" aria-label="Clinician or Researcher">A) Clinician/Researcher</button>
+  <button class="bg-gray-200 text-gray-700 py-1 px-3 rounded-full text-sm" type="button" aria-label="Institutional Leader">B) Institutional Leader</button>
+  <button class="bg-gray-200 text-gray-700 py-1 px-3 rounded-full text-sm" type="button" aria-label="Industry Partner">C) Industry Partner</button>
+</div>
+<div class="fade-in">
+  <p class="mb-2">Thank you. As a Clinician/Researcher, the most resonant theme is the power of bottom-up, process-driven innovation.</p>
+  <p class="font-semibold duke-blue-text">Your Most Impactful First Step:</p>
+  <p class="mb-4">The "Crawl" stage of the Bootstrapper's Playbook is your ideal starting point. Next week, focus on documenting just one of your own frequent, high-friction workflows. Don't try to automate it yet. Simply create a "Process Provenance" document that lists the steps. This single act of making your tacit knowledge visible is the foundational skill for everything that follows.</p>
+  <hr class="my-3">
+  <div class="p-2 bg-gray-200 text-gray-700 rounded font-mono text-xs">&lt;session_synthesis&gt;
+**Date:** 2025-10-08
+**Key Decision:** Identified the "Crawl" stage as the most relevant first step for a Clinician/Researcher.
+**Action Item:** Document one personal workflow.
+&lt;/session_synthesis&gt;</div>
+</div>`;
+
+    assembleBtn.addEventListener('click', () => {
+      // Respect reduced motion
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      componentsSection.style.transition = prefersReduced ? 'none' : 'opacity 0.5s';
+      assemblySection.style.transition  = prefersReduced ? 'none' : 'opacity 0.5s';
+
+      componentsSection.style.opacity = '0';
+      assemblySection.style.opacity  = '0';
+
+      setTimeout(() => {
+        componentsSection.classList.add('hidden');
+        assemblySection.classList.add('hidden');
+        answerSection.classList.remove('hidden');
+
+        setTimeout(() => {
+          promptContent.innerText = masterPrompt;
+          promptBlock.style.opacity = '1';
+          promptBlock.style.transform = 'translateY(0)';
+        }, 100);
+
+        setTimeout(() => {
+          answerBlock.style.opacity = '1';
+          answerBlock.style.transform = 'translateY(0)';
+          setTimeout(() => {
+            thinkingAnimation.classList.add('hidden');
+            answerContent.innerHTML = simulatedAnswer;
+          }, prefersReduced ? 200 : 2000);
+        }, 300);
+
+      }, prefersReduced ? 0 : 500);
+    });
+  </script>
+</body>
+</html>
