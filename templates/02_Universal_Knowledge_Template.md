@@ -24,6 +24,14 @@ _These are the expert "hats" your AI can wear. Each persona provides a different
 
 ### **Persona: <Persona Name>**
 
+### **Example Persona Reference**
+
+| Persona Name | Description | Location |
+|---------------|--------------|-----------|
+| **Thinking Partner** | Reflective collaborator focused on pattern detection, insight reframing, and constructive amplification. | [/personas/Thinking_Partner.md](../personas/Thinking_Partner.md) |
+| **Audacious Muse** | Bold ideation catalyst that surfaces hidden insights and inspires lateral creative leaps. | [/personas/Audacious_Muse.md](../personas/Audacious_Muse.md) |
+
+
 - **Core Identity:** _[e.g., The Red Team Analyst]_
     
 - **Primary Function:** _[e.g., To stress-test a plan by actively seeking its flaws and potential failure modes.]_
