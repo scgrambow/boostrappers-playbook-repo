@@ -33,6 +33,13 @@ _These are the expert "hats" your AI can wear. Each persona provides a different
 
 _These are your custom, reusable "functions" that you can call on your AI to perform complex, multi-step tasks. Naming them makes them easily invokable._
 
+### **Example Tool Reference**
+
+| Tool Name | Description | Location |
+|------------|--------------|-----------|
+| **Session Synthesizer** | Captures structured session data for Process Provenance in dual formats — machine-readable (XML ledger) and human-readable (narrative). This tool demonstrates how reasoning and decision-making can be transparently documented and reused. | [/templates/04_Standalone_Tool_Session_Synthesizer.md](04_Standalone_Tool_Session_Synthesizer.md) |
+
+
 ### **Tool: <Tool Name>**
 
 - **Intent:** _[e.g., Session Synthesis Tool]_
