@@ -1,56 +1,86 @@
-# The Bootstrapper’s Playbook
+# Bootstrappers Playbook
 
-[![View Live Site](https://img.shields.io/badge/View-Live%20Site-blue?style=for-the-badge)](https://bootstrappers-playbook.netlify.app)
-![Version](https://img.shields.io/badge/version-1.0-blue)
+A transparent, reproducible framework for building your own **Portable AI Brain** — blending human creativity and structured AI collaboration. This repository models **Process Provenance**: the ability to document how ideas, tools, and AI collaborators contribute to the evolution of a project.
 
-Official companion repository for the **Duke AI Health Innovation Summit 2025** presentation:  
-**“Beyond the Chatbot: Designing the Human Systems for AI-Powered Health Innovation.”**
+---
 
-Welcome! This repository is the official "Process Provenance" and resource hub for the presentation **"Beyond the Chatbot: Designing the Human Systems for AI-Powered Health Innovation,"** delivered at the 2nd Annual Duke Summit on AI for Health Innovation on October 8, 2025.
+## 🧭 Purpose
 
-The resources here are designed to help you begin your "Crawl, Walk, Run" journey toward a new, human-centric operating system for AI-powered work.
+This repository serves as both an example and a toolkit for:
+- Designing reproducible AI-assisted workflows.
+- Maintaining transparency about the origin and evolution of ideas.
+- Demonstrating responsible human–AI collaboration.
 
-[**🌍 View the Interactive Website**](https://bootstrappers-playbook.netlify.app)  
-Explore the live, interactive version of this playbook — including the “Anatomy of an Answer” module featured at the Summit.
+The **Bootstrappers Playbook** was originally developed for the *Duke AI Summit 2025: AI for Health Innovation*, and includes the materials, templates, and provenance files that supported the presentation.
 
+---
 
-## What's in This Repository?
+## 📂 Repository Structure
 
-Each folder reflects a component of the “Crawl, Walk, Run” framework introduced in the Summit presentation.
+### `/templates/`
+This folder includes all reusable templates that form the foundation of the Playbook. Each template is modular and can be adapted to your own workflow.
 
-This repository is structured to give you everything you need to get started.
+#### Included Templates
+| File | Description |
+|------|--------------|
+| **01_Lean_Master_Prompt_Template.md** | A concise starting point for defining any AI-assisted workflow. |
+| **02_Universal_Knowledge_Template.md** | Framework for structuring reusable knowledge and references across projects. |
+| **03_Project_Specific_Knowledge_Template.md** | Template for managing domain- or project-specific knowledge in a transparent way. |
+| **04_Standalone_Tool_Session_Synthesizer.md** | A standalone tool that captures structured session data — documenting human–AI collaboration in both narrative and machine-readable formats. |
 
-### 1. `/presentation-slides/`
+#### `/templates/personas/`
+This subfolder contains reusable **AI collaborator personas** that represent distinct cognitive roles in your workflow.
 
-This directory contains the complete slide deck from the presentation in PDF format.
+| Persona | Description |
+|----------|--------------|
+| **Thinking_Partner.md** | A reflective collaborator focused on pattern recognition, insight reframing, and conceptual clarity. |
+| **Audacious_Muse.md** | A bold ideation catalyst that surfaces hidden insights and inspires creative reframing. |
 
-- `Duke-AI-Summit-2025.pdf`
-    
+These personas can be referenced directly from the Universal Knowledge Template or activated within any prompt or project manifest.
 
-### 2. `/templates/`
+---
 
-This directory contains the three core Markdown templates for building your own **"Portable AI Brain."** These are designed to be copied, customized, and used on any AI chat platform.
+### `/process-provenance/`
+This folder provides an **illustrative sample of provenance documentation**, showing how the presentation and website were designed through iterative human–AI collaboration.
 
-- `01_Lean_Master_Prompt_Template.md`: The “Mission Control” for a specific work session.
-- `02_Universal_Knowledge_Template.md`: Your stable, reusable “Operating System” of principles and personas.
-- `03_Project_Specific_Knowledge_Template.md`: The “Briefing” document for your current task.
+Each file captures a different phase of the creative process — from early narrative structuring to visual design refinement — using the same synthesis principles embedded in the Session Synthesizer tool.
 
-    
+#### Representative Examples
+| File | Description |
+|------|--------------|
+| **2025-10-05-Presentation_Narrative_Structure.md** | Outlines the conceptual backbone of the talk. |
+| **2025-10-06-AI_Summit_Presentation_Design_Session.md** | Captures iterative AI-assisted design planning for the slides. |
+| **2025-10-06-Proposed_Visual_Arc.md** | Describes the intended visual storytelling arc. |
+| **2025-10-07-AI_Summit_Presentation_Conclusion_Design.md** | Documents the framing of the final synthesis slides. |
 
-## How to Get Started (Your "Crawl" Stage)
-Ready to begin your journey? Start here — this is your “Crawl” stage in action:
+These examples illustrate how documentation can serve both creative reflection and process transparency.
 
-1. **Fork or Download this Repository:** Get a copy of these files for your own use.
+---
 
-2. **Customize Your Universal Knowledge file:** Open `02_Universal_Knowledge_Template.md` to define your core principles and trusted personas.”. This is the most important step in personalizing your AI assistant.
+### `/site/`
+Contains the public-facing **index.html** and **favicon.png** files for the Bootstrappers Playbook website. This version is hosted via Netlify and serves as the companion resource for the Duke AI Summit 2025 presentation.
 
-3. **Run Your First Session:** The next time you have a complex task, use `01_Lean_Master_Prompt_Template.md` and `03_Project_Specific_Knowledge_Template.md` to structure your context. Test it with a real problem you’re facing.
-    
-4. **Combine and Collaborate:** Paste the contents of all three files into the chatbot of your choice to create and collaborate with your own expert assistant. This simple three-file fusion is your first ‘Portable AI Brain.’
-    
+---
 
-## Join the Conversation
+## 🧩 Key Concepts
 
-This playbook and its tools are part of an evolving collaboration.  
-If this is a journey you’re on — or one you want to begin — reach out and share your build.  
-**Connect with me on <a href="https://www.linkedin.com/in/steven-grambow-78262b88/" target="_blank" rel="noopener">LinkedIn</a>** or explore more at <a href="https://luminateinsights.com" target="_blank" rel="noopener">Luminate Insights</a>.
+- **Process Provenance** – The traceable documentation of how ideas, prompts, personas, and tools shape an evolving project.  
+- **Portable AI Brain** – A modular, reproducible configuration of prompts, templates, and personas that travels with you across contexts.  
+- **Flight Recorder** – A transparency mechanism for capturing representative examples of your process in real time, without overburdening the workflow.
+
+---
+
+## 🤝 Join the Conversation
+
+Join the conversation around **responsible human–AI collaboration**. This playbook and its tools are part of an evolving experiment in transparent, reproducible AI-assisted work.
+
+If this is a journey you’re on — or one you want to begin — reach out and share your build.
+
+**Connect with me on [LinkedIn](https://www.linkedin.com/in/steven-grambow-78262b88/)** or explore more at [Luminate Insights](https://luminateinsights.com).
+
+---
+
+## 🪶 Attribution
+Written by a human. Boosted by AI.
+
+This repository represents a collaborative design between human insight and AI assistance — with human authorship, review, and editorial control at every step.
