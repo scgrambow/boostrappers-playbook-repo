@@ -1,55 +1,59 @@
 # Process Provenance
 
-This folder serves as the **science flight recorder** for the *Bootstrapper’s Playbook* project.  
-It captures representative records of the creative, analytic, and design processes behind the presentation and its supporting artifacts.
+This folder serves as the **science flight recorder** for *The Bootstrapper’s Playbook.*  
+It captures a small, representative set of project sessions and intermediate artifacts that document how ideas evolved during the creation of the AI Summit presentation.
 
-Each file provides a structured snapshot — a concise record of how ideas became systems.  
-This collection is **illustrative, not exhaustive**: the goal is to show the architecture of thinking, not to log every keystroke.
+Each file here represents a **moment in the lineage of thought** — whether it was a structured session generated with the **Session Synthesizer**, or an intermediate working document created as part of the design and reasoning process.
 
 ---
 
 ### 🧭 Purpose
 
-**Process Provenance** makes the invisible visible.  
-It transforms meetings, design sessions, and transcriptions into *evidence of thinking* — valuable artifacts for learning, replication, and trust-building.
+**Process Provenance** captures not only *what was built* but *how it came to be.*
 
-Every structured record contributes to three goals:
+It includes:
+- **Session Synthesizer outputs** — structured provenance records combining machine-readable and human-readable elements.  
+- **Intermediate artifacts** — narrative drafts, design sketches, and working documents that influenced or resulted from those sessions.  
+- **Reflections** — files showing how human reasoning, context, and iterative refinement shaped the final outcome.
 
-- **Transparency:** Shows how decisions were made.  
-- **Reproducibility:** Allows others to understand and retrace the reasoning process.  
-- **Institutional Learning:** Turns unstructured collaboration (notes, transcripts, meeting summaries) into durable, analyzable knowledge.
+These artifacts together create a **transparent record of collaboration** between people and AI tools — showing the genealogy of ideas, their sponsorship by human authors, and the evolution of shared understanding over time.
 
-When captured intentionally, these artifacts become part of a living system of organizational metacognition — a record of how knowledge evolves.
+---
+
+### 🧩 About the Session Synthesizer
+
+The **Session Synthesizer** is one of the core tools in the Playbook’s template library.  
+It captures live sessions in a **dual-format structure**:
+1. A **machine-readable XML ledger** (`<session_synthesis_report>`) — logs metadata, participants, key outputs, and idea lineage.  
+2. A **human-readable process narrative** — documents how the collaboration unfolded, what decisions were made, and why.
+
+Not every file in this folder was created by the Session Synthesizer, but all follow its *spirit*:  
+**to preserve the reasoning, context, and creative dynamics of human-AI collaboration.**
 
 ---
 
 ### 🧩 Example Files
 
-| File | Description | Category |
-|-------|--------------|-----------|
-| [`2025-10-05_Presentation_Narrative_Structure.md`](2025-10-05-Presentation%20Narrative%20Structure.md) | Defines the logical and narrative spine of the Summit presentation. | Thinking Provenance |
-| [`2025-10-06_Proposed_Visual_Arc.md`](2025-10-06-proposed-visual-arc.md) | Outlines the “Blueprint → Vibrant Life” design evolution and its emotional logic. | Design Provenance |
-| [`2025-10-06_AI_Summit_Presentation_Design_Session.md`](2025-10-06-AI-Summit-Presentation-Design-Session.md) | Links the visual and narrative threads through implementation choices. | Integration Provenance |
-| [`2025-10-07_AI_Summit_Presentation_Conclusion_Design.md`](2025-10-07-AI-Summit-Presentation-Conclusion-Design.md) | Captures the reflective synthesis and introduction of the “Moral Dividend.” | Synthesis Provenance |
+| File | Description | Provenance Type |
+|------|--------------|----------------|
+| [`2025-10-05-Presentation Narrative Structure.md`](2025-10-05-Presentation%20Narrative%20Structure.md) | Defines the presentation’s conceptual and narrative backbone; produced as a collaborative planning document. | Intermediate Artifact |
+| [`2025-10-06-proposed-visual-arc.md`](2025-10-06-proposed-visual-arc.md) | Captures the evolution of the visual metaphor (“Blueprint → Vibrant Life”) that guided design decisions. | Intermediate Artifact |
+| [`2025-10-06-AI-Summit-Presentation-Design-Session.md`](2025-10-06-AI-Summit-Presentation-Design-Session.md) | Structured session log created using the Session Synthesizer; integrates narrative and visual threads. | Session Synthesis |
+| [`2025-10-07-AI-Summit-Presentation-Conclusion-Design.md`](2025-10-07-AI-Summit-Presentation-Conclusion-Design.md) | Final reflective session on moral framing and closing structure. | Session Synthesis |
 
 ---
 
-### 🧱 File Structure
+### 🧠 Why It Matters
 
-Each provenance entry should include:
+Most organizations discard the *process data* behind their work — meeting notes, drafts, transcripts, AI interactions.  
+Here, those artifacts are preserved as **evidence of reasoning**, allowing future teams to study and reuse the patterns behind innovation.
 
-1. **Conceptual Summary** – What was the goal or challenge?  
-2. **Principle-Based Linking** – Which design or reasoning principles guided the work?  
-3. **Knowledge Capture** – Key insights, reflections, or emergent patterns.  
-4. **Outcome or Action** – What decision or artifact resulted?  
-
-Use this naming convention:  
-`'YYYY-MM-DD_Descriptive_Title.md'`
-
-Example:  
-`'2025-10-06_Proposed_Visual_Arc.md'`
+Capturing this provenance:
+- Documents the **origin and sponsorship of ideas**.  
+- Shows how AI contributions were guided and interpreted by humans.  
+- Builds an **institutional memory system** that learns from itself.  
 
 ---
 
 ### 🪶 Guiding Principle
-> *“Process Provenance doesn’t just explain what we built — it shows how we learned.”*
+> *“Provenance isn’t about hierarchy or form — it’s about preserving the conversation that created the idea.”*
